@@ -13,12 +13,7 @@ freetype-sys = "0.4"
 libc = "0.2"
 
 [dependencies.glium]
-version = "0.20"
-default-features = false
+version = "=0.19.0"
 
 [dev-dependencies]
 cgmath = "0.12"
-
-[dev-dependencies.glium]
-version = "0.20"
-features = ["glutin"]
